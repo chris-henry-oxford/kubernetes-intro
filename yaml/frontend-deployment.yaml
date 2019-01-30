@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: https://gcr.io/fiery-odyssey-230213/github.com/chris-henry-oxford/frontend
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
