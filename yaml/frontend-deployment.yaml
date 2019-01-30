@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: https://gcr.io/fiery-odyssey-230213/github.com/chris-henry-oxford/frontend
+        image: gcr.io/fiery-odyssey-230213/github.com/chris-henry-oxford/frontend:cv-frontend-1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
